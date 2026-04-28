@@ -1,0 +1,9 @@
+name: puertos-estado
+version: 1.0.0
+description: Datos oceanográficos en tiempo real e informes climáticos de las boyas de Puertos del Estado (España). Oleaje, temperatura, viento y PDFs históricos.
+transport: stdio
+startCommand:
+  type: stdio
+  command: node
+  args:
+    - index.js
