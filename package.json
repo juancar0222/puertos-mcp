@@ -1,0 +1,14 @@
+{
+  "name": "puertos-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP server para datos oceanográficos de Puertos del Estado (España)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.0.0"
+  }
+}
